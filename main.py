@@ -9,7 +9,7 @@ from langchain_openai import ChatOpenAI
 # result = llm.predict("hi")
 # print(result)
 
-# chat_model = ChatOpenAI(model_name="gpt-3.5-turbo")
+chat_model = ChatOpenAI(model_name="gpt-3.5-turbo")
 # result = chat_model.invoke("코딩에 대한 시를 써줘")
 # print(result.content)
 
